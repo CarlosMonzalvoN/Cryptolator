@@ -56,15 +56,39 @@
 		6CC3A5C8281CE22E007A0837 /* Cryptolator */ = {
 			isa = PBXGroup;
 			children = (
+				6CC3A5DD281CE435007A0837 /* Model */,
+				6CC3A5DE281CE43E007A0837 /* View */,
+				6CC3A5DF281CE447007A0837 /* ViewModel */,
 				6CC3A5C9281CE22E007A0837 /* AppDelegate.swift */,
 				6CC3A5CB281CE22E007A0837 /* SceneDelegate.swift */,
-				6CC3A5CD281CE22E007A0837 /* ViewController.swift */,
 				6CC3A5CF281CE22E007A0837 /* Main.storyboard */,
 				6CC3A5D2281CE233007A0837 /* Assets.xcassets */,
 				6CC3A5D4281CE233007A0837 /* LaunchScreen.storyboard */,
 				6CC3A5D7281CE233007A0837 /* Info.plist */,
 			);
 			path = Cryptolator;
+			sourceTree = "<group>";
+		};
+		6CC3A5DD281CE435007A0837 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CC3A5DE281CE43E007A0837 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CC3A5CD281CE22E007A0837 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CC3A5DF281CE447007A0837 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
