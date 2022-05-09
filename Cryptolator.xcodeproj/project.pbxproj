@@ -13,6 +13,8 @@
 		6CC3A5D1281CE22E007A0837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC3A5CF281CE22E007A0837 /* Main.storyboard */; };
 		6CC3A5D3281CE233007A0837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC3A5D2281CE233007A0837 /* Assets.xcassets */; };
 		6CC3A5D6281CE233007A0837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC3A5D4281CE233007A0837 /* LaunchScreen.storyboard */; };
+		D1095FB12825A88A009CCB88 /* CoinsMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1095FB02825A88A009CCB88 /* CoinsMarketViewController.swift */; };
+		D1095FB32825A899009CCB88 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1095FB22825A899009CCB88 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6CC3A5D2281CE233007A0837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC3A5D5281CE233007A0837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CC3A5D7281CE233007A0837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1095FB02825A88A009CCB88 /* CoinsMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsMarketViewController.swift; sourceTree = "<group>"; };
+		D1095FB22825A899009CCB88 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				6CC3A5CD281CE22E007A0837 /* ViewController.swift */,
+				D1095FB02825A88A009CCB88 /* CoinsMarketViewController.swift */,
+				D1095FB22825A899009CCB88 /* CalculatorViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1095FB32825A899009CCB88 /* CalculatorViewController.swift in Sources */,
 				6CC3A5CE281CE22E007A0837 /* ViewController.swift in Sources */,
+				D1095FB12825A88A009CCB88 /* CoinsMarketViewController.swift in Sources */,
 				6CC3A5CA281CE22E007A0837 /* AppDelegate.swift in Sources */,
 				6CC3A5CC281CE22E007A0837 /* SceneDelegate.swift in Sources */,
 			);
